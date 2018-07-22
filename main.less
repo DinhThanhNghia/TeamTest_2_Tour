@@ -14,10 +14,124 @@ nav.khung{
 	width: 100%;
 	// box1
 	.box1{
+		background: #1c3248;
+		height: 150px;
+		// header
+		nav.nav{
+			width: 80%;
+			height: 50px;
+			margin-left: 10%;
+			line-height: 30px;
+			border-bottom: 1px solid #8a94a1;
+			a.nav-link{
+				color: #8a94a1;
+				&:hover{
+					color: red;
+					transition: all .6s ease-in;
+				}
+			}
+			a.right{
+				margin-left: 22%;
+			}
+		}
+		// menu
+		.menu{
+			height: 100px;
+			nav.navbar{
+				// logo
+				a.navbar-brand{
+					margin-left: 7%;
+					img{
+						width: 250px;
+						height: 80px;
+					}
+				}
+				//menu
+				.collapse{
+					margin-left: 10%;
+					ul.navbar-nav{
+						li.nav-item{
+							a.nav-link{
+								padding-left: 20px;
+								color: #8a94a1;
+								font-weight: 550;
+								&:hover{
+									color: red;
+									transition: all .6s ease-in;
+								}
+							}
+							a.btn{
+								display: block;
+								width: 100px;
+								height: 40px;
+								background: white;
+								margin-left: 20px;
+								padding-left: 8px;
+								color: #1c3248;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	// end box 1
 	// box2
 	.box2{
+		width: 100%;
+		height: 540px;
+		.carousel-inner{
+			.carousel-item{
+				img{
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+		ul.carousel-indicators{
+			li{
+				width: 10px;
+				height: 10px;
+			}
+			li.active{
+				background: red;
+			}
+		}
+		
+		.text{
+			width: 600px;
+			height: 200px;
+			top: 40%;
+			left: 28%;
+			h3{
+				color: white;
+				font-family: tahoma;
+			}
+			p{
+				color: white;
+				padding-top: 5px;
+			}
+			a{
+				color: white;
+				font-weight: 700;
+				display: block;
+				width: 120px;
+				height: 40px;
+				background: #0275d8;
+				text-align: center;
+				line-height: 40px;
+				border-radius: 5px;
+				border: 1px solid white;
+				margin-left: 40%;
+				text-decoration: none;
+				transition: all 1s ease-in;
+				&:hover{
+					background: #1350b2;
+					color: red;
+					transition: all 1s ease-in;
+				}
+			}
+		}
 	}
 	// end box2
 	// box3
@@ -66,10 +180,47 @@ nav.khung{
 		width: 768px;
 		// box1
 		.box1{
+			width: 768px;
+			nav.nav{
+				width: 100%;
+				margin-left: 0;
+				a.right{
+					margin-left: 10px;
+				}
+				a.nav-link{
+					padding-left: 10px;
+					i{
+						font-size: 11pt;
+					}
+				}
+			}
+			.menu{
+				nav.navbar{
+					a.navbar-brand{
+						margin-left: 10px;
+						img{
+							width: 220px;
+							height: 70px;
+						}
+					}
+					.collapse{
+						margin-left: 5%;
+						ul.navbar-nav{
+							background: #000;
+						}
+					}
+				}
+			}
 		}
 		// end box1
 		// box2
 		.box2{
+			width: 768px;
+			height: 307px;
+			.text{
+				top: 35%;
+				left: 11%;
+			}
 		}
 		// end box 2
 		// box3
@@ -118,10 +269,36 @@ nav.khung{
 		width: 360px;
 		// box1
 		.box1{
+			width: 100%;
+			height: 200px;
+			nav.nav{
+				height: 100px;
+				a.nav-link{
+					padding-left: 2px;
+				}
+			}
+			.menu{
+				nav.navbar{
+					a.navbar-brand{
+						img{
+							margin-left: 0px;
+						}
+					}
+				}
+			}
 		}
 		// end box1
 		// box2
 		.box2{
+			width: 100%;
+			height: 145px;
+			.carousel-inner{
+				.carousel-item{
+					.text{
+						display: none;
+					}
+				}
+			}
 		}
 		// end box 2
 		// box3
