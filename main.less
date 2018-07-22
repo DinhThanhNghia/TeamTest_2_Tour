@@ -38,10 +38,112 @@ nav.khung{
 	// end box 6
 	// box7
 	.box7{
+		width: 100%;
+		height: 450px;
+		h3{
+			padding-top: 50px;
+		}
+		.line1{
+			.line1();
+			width: 150px;
+			margin-left: 45%;
+		}
+		.line2{
+			.line2();
+			width: 275px;
+			margin-left: 40%;
+		}
+		.slide{
+			height: 300px;
+			margin-top: 20px;
+			.carousel{
+				.carousel-inner{
+					.carousel-item{
+						img{
+							margin-top: 15px;
+							width: 120px;
+							height: 120px;
+							border-radius: 100%;
+							border: 2px solid #3d87ff;
+							margin-left: 46%;
+							transition: all 1s ease-in-out;
+							&:hover{
+								transition: all 1s ease-in-out;
+								transform: scale(1.1);
+							}
+						}
+						p{
+							padding-top: 10px;
+							font-family: Arial;
+							font-size: 13pt;
+						}
+						p.name{
+							font-weight: bold;
+						}
+					}
+				}
+				ol.carousel-indicators{
+					li{
+						width: 10px;
+						height: 10px;
+						background: blue;
+					}
+					li.active{
+						background: red;
+					}
+				}
+			}
+		}
 	}
 	// end box 7
 	// box8
 	.box8{
+		float: left;
+		width: 100%;
+		height: 400px;
+		background: #07253f;
+		.col-md-6{
+			float: left;
+			h3{
+				color: white;
+				padding-left: 100px;
+				padding-top: 50px;
+			}
+			p{
+				color: white;
+				padding-left: 100px;
+			}
+			p.cost{
+				font-size: 20pt;
+				font-weight: bold;
+				float: left;
+			}
+			a.btn{
+				width: 120px;
+				height: 40px;
+				text-align: center;
+				line-height: 25px;
+				color: white;
+				border: 1px solid white;
+				margin-left: 30%;
+				transition: all .9s ease-in;
+				&:hover{
+					transition: all .9s ease-in;
+					background: #d7dbe0;
+				}
+			}
+			img{
+				width: 90%;
+				height: 350px;
+				margin-top: 30px;
+				transition: all .9s ease-in;
+				&:hover{
+					opacity: 0.7;
+					transform: scale(1.1);
+					transition: all .9s ease-in;
+				}
+			}
+		}
 	}
 	// end box 8
 	// box9
@@ -89,10 +191,28 @@ nav.khung{
 		}
 		// end box 6
 		.box7{
+			.line1{
+				margin-left: 40%;
+			}	
+			.line2{
+				margin-left: 32%;
+			}
 		}
 		// end box 7
 		// box8
 		.box8{
+			.col-md-6{
+				h3{
+					padding-left: 10%;
+				}
+				p{
+					padding-left: 10%;
+				}
+				a.btn{
+					float: right;
+					margin-top: -15%;
+				}
+			}
 		}
 		// end box 8
 		// box9
@@ -140,12 +260,46 @@ nav.khung{
 		.box6{
 		}
 		// end box 6
-		// box 7
+// box 7
 		.box7{
+			height: 450px;
+			h3{
+				font-size: 15pt;
+			}
+			.line1{
+				.line1();
+				margin: 0 auto;
+			}
+			.line2{
+				.line2();
+				margin: 0 auto;
+			}
+			.slide{
+				.carousel{
+					.carousel-inner{
+						.carousel-item{
+							img{
+								margin-left: 35%;
+							}
+						}
+					}
+				}
+			}
 		}
 		// end box 7
 		// box8
 		.box8{
+			height: 760px;
+			.col-md-6{
+				a.btn{
+					margin-top: 0;
+					margin-right: 35%;
+				}
+				img{
+					width: 330px;
+					height: 280px;
+				}
+			}
 		}
 		// end box 8
 		// box9
