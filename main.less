@@ -588,7 +588,7 @@ nav.khung{
 							height: 120px;
 							border-radius: 100%;
 							border: 2px solid #3d87ff;
-							margin-left: 45%;
+							margin-left: 46%;
 							transition: all 1s ease-in-out;
 							&:hover{
 								transition: all 1s ease-in-out;
@@ -810,12 +810,257 @@ nav.khung{
 	// end box 10
 	// box11
 	.box11{
+		float: left;
+		width: 91%;
+		margin-left: 4.5%;
+		height: 600px;
+		background:none;
+		h3{
+			text-align: center;
+			padding-top: 50px;
+		}
+		.line1{
+			.line1();
+		}
+		.line2{
+			.line2();
+		}
+		.col-md-3{
+			float: left;
+			height: 450px;
+			background:none;
+			margin-top:3%;
+			.card{
+				border-radius: 0;
+				img{
+					height: 200px;
+					transition: all .9s ease-in;
+					&:hover{
+						transition: all .9s ease-in;
+						transform: scale(1.05);
+					}
+				}
+				.card-body{
+					a{
+						text-decoration: none;
+					}
+					p{
+						font-family: Time new roman;
+					}
+					a.time{
+						display: block;
+						width: 100%;
+						height: 40px;
+						.col-md-6{
+							float: left;
+							line-height: 40px;
+							color: black;
+							border: 1px solid black;
+							transition: all .8s ease;
+							i{
+								padding-right: 10px;
+								color: blue;
+								font-size: 14pt;
+							}
+							i.fa-arrows-alt-h{
+								padding-left: 38%;
+							}
+							&:hover{
+								background: #f4b342;
+								transition: all .8s ease;
+							}
+						}
+					}
+				}
+				.star{
+					top: 0;
+					left: 0;
+					ul{
+						list-style-type: none;
+						margin: 0;
+						padding: 0;
+						li{
+							float: left;
+							a{
+								padding-left: 5px;
+								text-shadow: 2px 2px 1px red;
+							}
+						}
+					}
+				}
+				.sale{
+					top: 0;
+					right: 0;
+					width: 110px;
+					height: 110px;
+					border-radius: 100%;
+					background: #2e909b;
+					transition: all .8s ease-in;
+					&:hover{
+						transition: all .8s ease-in;
+						background: #196972;
+					}
+					a{
+						text-decoration: none;
+						p{
+							color: white;
+							font-family: Arial;
+							padding-top: 30px;
+						}
+					}
+				}
+			}
+		}
 	}
 	// end box 11
 	// box12
 	.box12{
-	}	
-	// end box 12 
+		float: left;
+		width: 100%;
+		height: 580px;
+		background: #07253f;
+		margin-top: 20px;
+		.col-md-4{
+			float: left;
+			h3{
+				padding-top: 50px;
+				padding-left: 50px;
+				color: white;
+			}
+			p.text{
+				color: white;
+				padding-left: 50px;
+			}	
+		}
+		.col-md-2{
+			float: left;
+			h3{
+				padding-top: 50px;
+				color: white;
+				padding-left: 5px;
+			}
+			p{
+				color: white;
+				padding-left: 5px;
+				a{
+					text-decoration: none;
+					color: white;
+				}
+			}
+		}
+		.col-md-3{
+			float: left;
+			h3{
+				padding-top: 50px;
+				padding-left: 20px;
+				color: white;
+			}
+			.around{
+				height: 90px;
+				.boxtext{
+					float: left;
+					width: 60%;
+					// background: blue;
+					a{
+						padding-left: 20px;
+						color: #307af2;
+						text-decoration: none;
+					}
+					ul.star{
+						background: red;
+						list-style-type: none;
+						li{
+							float: left;
+							i{
+								color: white;
+								font-size: 9pt;
+							}
+						}
+					}
+					p.cost{
+						float: left;
+						padding-left: 20px;
+						color: white;
+						font-weight: 550;
+						u{
+							padding-left: 10px;
+						}
+					}
+				}
+				.boximage{
+					float: left;
+					width: 35%;
+					margin-left: 5%;
+					img{
+						width: 60px;
+						height: 60px;
+						transition: all .9s ease-in;
+						&:hover{
+							transition: all .9s ease-in;
+							transform: scale(1.3);
+						}
+					}
+				}
+			}
+			ul.gallery1{
+				list-style-type: none;
+				padding: 0;
+				margin-left: 20px;
+				li{
+					float: left;
+					img{
+						width: 70px;
+						height: 70px;
+						border: 2px solid gray;
+						transition: all .9s ease-in;
+						&:hover{
+							transition: all .9s ease-in;
+							transform: scale(1.3);
+						}
+					}
+				}
+			}
+			ul.gallery2{
+				list-style-type: none;
+				margin-top: 20px;
+				padding: 0;
+				margin-left: 20px;
+				li{
+					float: left;
+					img{
+						width: 70px;
+						height: 70px;
+						border: 2px solid gray;
+						transition: all .9s ease-in;
+						&:hover{
+							transition: all .9s ease-in;
+							transform: scale(1.3);
+						}
+					}
+				}
+			}
+		}
+		.backtop{
+			float: left;
+			width: 90%;
+			margin-left: 5%;
+			margin-top: 20px;
+			height: 2px;
+			background: gray;
+			i{
+				color: gray;
+				left: 50%;
+				top: -25px;
+			}
+		}
+		.footer{
+			float: left;
+			margin-top: 30px;
+			height: 40px;
+			width: 100%;
+			color: white;
+		}
+	}	// end box 12 
 }
 @media screen and (max-width: 768px){
 	nav.khung{
@@ -988,7 +1233,6 @@ nav.khung{
 		}
 		// end box 6
 		.box7{
-			width: 100%;
 			.line1{
 				margin-left: 40%;
 			}	
@@ -1073,10 +1317,77 @@ nav.khung{
 		// end box 10
 		// box11
 		.box11{
+			.line1{
+				display: none;
+			}
+			.line2{
+				display: none;
+			}
+			.col-md-3{
+				background: none;
+				.card{
+					.star{
+						display: none;
+					}
+					.sale{
+						display: none;
+					}
+					.card-body{
+						a.time{
+							display: none;
+						}
+					}
+				}
+			}
 		}
 		// end box 11
 		// box12
 		.box12{
+			width: 100%;
+			height: 850px;
+			.col-md-4{
+				h3{
+					padding-left: 0;
+				}
+				p.text{
+					padding-left: 0px;
+				}
+			}
+			.col-md-3{
+				.around{
+					.boxtext{
+						a{
+							padding: 0;
+						}
+						ul.star{
+							margin: 0;
+							padding: 0;
+						}
+						p.cost{
+							padding: 0;
+							margin: 0;
+							u{
+								padding: 0;
+							}
+						}
+					}
+				}
+				ul.gallery1{
+					li{
+						float: none;
+					}
+				}
+				ul.gallery2{
+					li{
+						float: none;
+					}
+				}
+			}
+			.backtop{
+				i{
+					margin-left: -2%;
+				}
+			}
 		}
 		// end box 12 	
 	}
@@ -1189,7 +1500,7 @@ nav.khung{
 			}
 		}
 		// end box 6
-// box 7
+		// box 7
 		.box7{
 			height: 450px;
 			h3{
@@ -1318,10 +1629,44 @@ nav.khung{
 		// end box 10
 		// box11
 		.box11{
+			height: 1950px;
+			.line1{
+				display: none;
+			}
+			.line2{
+			 	display: none;
+			}
+			.col-md-3{
+				margin-left: -0px;
+				.khung1{
+					i{
+						padding-left: 40px;
+					}
+					p{
+						padding-left: 25px;
+					}
+				}
+			}
 		}
 		// end box 11
 		// box12
 		.box12{
+			.col-md-4{
+				h3{
+					padding-left: 0;
+					p{
+						margin: 0;
+						padding-left: 0;
+					}
+				}
+			}
+			.backtop{
+				i{
+					margin-left: -8%;
+				}
+			}
+			width: 100%;
+			height: 1600px;
 		}
 		// end box 12
 	}
