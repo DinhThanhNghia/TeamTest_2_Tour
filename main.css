@@ -1,0 +1,25 @@
+.line1 {
+  width: 100px;
+  height: 3px;
+  background: #3d87ff;
+  margin-left: 46.5%;
+}
+.line2 {
+  width: 200px;
+  height: 1px;
+  background: black;
+  margin-left: 42.5%;
+}
+nav.khung {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  nav.khung {
+    width: 768px;
+  }
+}
+@media screen and (max-width: 360px) {
+  nav.khung {
+    width: 360px;
+  }
+}
