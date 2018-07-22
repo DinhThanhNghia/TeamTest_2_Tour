@@ -590,6 +590,110 @@ nav.khung .box6 .tour-works .col-right .search-form button:hover {
   color: #00b6f1;
   transition: ease-in-out 1s;
 }
+nav.khung .box7 {
+  width: 100%;
+  height: 450px;
+}
+nav.khung .box7 h3 {
+  padding-top: 50px;
+}
+nav.khung .box7 .line1 {
+  width: 100px;
+  height: 3px;
+  background: #3d87ff;
+  margin-left: 46.5%;
+  width: 150px;
+  margin-left: 45%;
+}
+nav.khung .box7 .line2 {
+  width: 200px;
+  height: 1px;
+  background: black;
+  margin-left: 42.5%;
+  width: 275px;
+  margin-left: 40%;
+}
+nav.khung .box7 .slide {
+  height: 300px;
+  margin-top: 20px;
+}
+nav.khung .box7 .slide .carousel .carousel-inner .carousel-item img {
+  margin-top: 15px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 2px solid #3d87ff;
+  margin-left: 45%;
+  transition: all 1s ease-in-out;
+}
+nav.khung .box7 .slide .carousel .carousel-inner .carousel-item img:hover {
+  transition: all 1s ease-in-out;
+  transform: scale(1.1);
+}
+nav.khung .box7 .slide .carousel .carousel-inner .carousel-item p {
+  padding-top: 10px;
+  font-family: Arial;
+  font-size: 13pt;
+}
+nav.khung .box7 .slide .carousel .carousel-inner .carousel-item p.name {
+  font-weight: bold;
+}
+nav.khung .box7 .slide .carousel ol.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background: blue;
+}
+nav.khung .box7 .slide .carousel ol.carousel-indicators li.active {
+  background: red;
+}
+nav.khung .box8 {
+  float: left;
+  width: 100%;
+  height: 400px;
+  background: #07253f;
+}
+nav.khung .box8 .col-md-6 {
+  float: left;
+}
+nav.khung .box8 .col-md-6 h3 {
+  color: white;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+nav.khung .box8 .col-md-6 p {
+  color: white;
+  padding-left: 100px;
+}
+nav.khung .box8 .col-md-6 p.cost {
+  font-size: 20pt;
+  font-weight: bold;
+  float: left;
+}
+nav.khung .box8 .col-md-6 a.btn {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  border: 1px solid white;
+  margin-left: 30%;
+  transition: all 0.9s ease-in;
+}
+nav.khung .box8 .col-md-6 a.btn:hover {
+  transition: all 0.9s ease-in;
+  background: #d7dbe0;
+}
+nav.khung .box8 .col-md-6 img {
+  width: 90%;
+  height: 350px;
+  margin-top: 30px;
+  transition: all 0.9s ease-in;
+}
+nav.khung .box8 .col-md-6 img:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+  transition: all 0.9s ease-in;
+}
 @media screen and (max-width: 768px) {
   nav.khung {
     width: 768px;
@@ -734,6 +838,25 @@ nav.khung .box6 .tour-works .col-right .search-form button:hover {
     width: 100%;
     background: rgba(0, 0, 0, 0.3);
   }
+  nav.khung .box7 {
+    width: 100%;
+  }
+  nav.khung .box7 .line1 {
+    margin-left: 40%;
+  }
+  nav.khung .box7 .line2 {
+    margin-left: 32%;
+  }
+  nav.khung .box8 .col-md-6 h3 {
+    padding-left: 10%;
+  }
+  nav.khung .box8 .col-md-6 p {
+    padding-left: 10%;
+  }
+  nav.khung .box8 .col-md-6 a.btn {
+    float: right;
+    margin-top: -15%;
+  }
 }
 @media screen and (max-width: 360px) {
   nav.khung {
@@ -808,5 +931,39 @@ nav.khung .box6 .tour-works .col-right .search-form button:hover {
   }
   nav.khung .box6 .tour-works .col-left .box-icon-text {
     left: 0;
+  }
+  nav.khung .box7 {
+    height: 450px;
+  }
+  nav.khung .box7 h3 {
+    font-size: 15pt;
+  }
+  nav.khung .box7 .line1 {
+    width: 100px;
+    height: 3px;
+    background: #3d87ff;
+    margin-left: 46.5%;
+    margin: 0 auto;
+  }
+  nav.khung .box7 .line2 {
+    width: 200px;
+    height: 1px;
+    background: black;
+    margin-left: 42.5%;
+    margin: 0 auto;
+  }
+  nav.khung .box7 .slide .carousel .carousel-inner .carousel-item img {
+    margin-left: 35%;
+  }
+  nav.khung .box8 {
+    height: 760px;
+  }
+  nav.khung .box8 .col-md-6 a.btn {
+    margin-top: 0;
+    margin-right: 35%;
+  }
+  nav.khung .box8 .col-md-6 img {
+    width: 330px;
+    height: 280px;
   }
 }
